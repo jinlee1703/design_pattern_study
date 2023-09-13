@@ -1,6 +1,6 @@
 package chain_of_responsibility;
 
-// 트러블을 해결하는 구현 클래스(특정 번호 미만의 트러블만 처리)
+// 트러블을 해결하는 구현 클래스(특정 번호 트러블만 처리)
 public class SpecialSupport extends Support {
 	private int number; // 이 번호만 해결할 수 있음
 
